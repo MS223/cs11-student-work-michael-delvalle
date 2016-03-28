@@ -1,0 +1,14 @@
+fizzbuzz = range(1,101)
+print fizzbuzz
+
+def everything(input):
+    for x in input:
+        if x % 3 == 0 and x % 5 == 0:
+            print "Fizzbuzz"
+        elif x % 5 == 0:
+            print "Buzz"
+        elif x % 3 == 0:
+            print "Fizz"
+        else:
+            print x
+everything(fizzbuzz)
