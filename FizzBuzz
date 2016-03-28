@@ -5,10 +5,13 @@ def everything(input):
     for x in input:
         if x % 3 == 0 and x % 5 == 0:
             print "Fizzbuzz"
+            #This is the code to find numbers divisible by both 3 and 5
         elif x % 5 == 0:
             print "Buzz"
+            #This is the code to find numbers that are just divisible by 5
         elif x % 3 == 0:
             print "Fizz"
+            #This is the code to find numbers that are just divisible by 3
         else:
             print x
 everything(fizzbuzz)
