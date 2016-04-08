@@ -1,0 +1,9 @@
+print "Let's play a game of Rock Paper Scissors"
+user_choice=raw_input ("Pick now")
+random = ["rock", "paper", "scissors"]
+computer_move = (random.randint)
+
+#I have to figure out how to make the computer pick a random choice
+
+if user_choice == "rock" and computer_move == "scissors" or user_choice == "paper" and computer_move == "rock" or user_choice == "scissors" and computer_move == "paper":
+   print "You've won"
