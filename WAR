@@ -1,0 +1,26 @@
+import random
+def shuffled_deck():
+    basic_deck = range(2, 15) * 4
+    random.shuffle(basic_deck)
+    return basic_deck
+
+deck = shuffled_deck()
+
+player1 = raw_input ("What's your name?")
+player2 = raw_input ("What's your name?")
+
+player1_score = 0
+player2_score = 0
+
+def player_turn(Player):
+    card = deck.pop()
+    print Player, 'drew' , card
+    return str(card)
+player_turn(player1)
+player_turn(player2)
+
+if player1 > player2:
+    player1_score + 1
+elif player2 >player1:
+    player2_score + 1
+ #I need to figure out how to make a while statement about this
