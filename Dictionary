@@ -1,0 +1,17 @@
+user_profile = {
+'name': 'Michael',
+'school': 'The Laboratory School of Finance and Technology',
+'birthday': 'March 16th',
+'email': 'Michael.delvalle@ms223.org',
+'username': 'Mik3y316',
+'where are you from?': 'New York',
+'number of siblings': '3 siblings',
+'skills': 'Can somewhat play the guitar',
+'about you': 'The only hispanic I know that likes hockey',
+'favorite movie': 'Mad Max Fury Road',
+'favorite musician': 'Undecided',
+'favorite TV show': 'Undecided',
+'favorite book': 'letters to a young poet',
+}
+
+print user_profile
