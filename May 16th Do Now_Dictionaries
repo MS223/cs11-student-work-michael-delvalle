@@ -1,0 +1,14 @@
+my_dictionary = {
+'cat': 'a domestic feline',
+'dog': 'a domestic canine',
+'chair': 'furniture piece for sitting',
+'car': 'automobile'
+}
+print my_dictionary
+print my_dictionary['dog']
+print my_dictionary.get('dog')
+print 'cat' in my_dictionary
+print 'monkey' in my_dictionary
+
+#What prints out is the whole dictionary. It also prints out the definition of dog twice being that it asks to find the word dog twice.
+#It then asks for a true or false statement for if the word cat is in the dictionary as well as the word monkey.
