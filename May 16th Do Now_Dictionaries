@@ -9,6 +9,10 @@ print my_dictionary['dog']
 print my_dictionary.get('dog')
 print 'cat' in my_dictionary
 print 'monkey' in my_dictionary
+print my_dictionary['chair']
+print my_dictionary['kittens']
 
-#What prints out is the whole dictionary. It also prints out the definition of dog twice being that it asks to find the word dog twice.
+
+#What prints out is the whole dictionary. It also prints out dog twice being that it asks to find the word dog twice.
 #It then asks for a true or false statement for if the word cat is in the dictionary as well as the word monkey.
+#What happens with the kitten code is that it gives you an error message because the word kitten isn't within your dictionary.
