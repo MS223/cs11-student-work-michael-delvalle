@@ -1,0 +1,12 @@
+class color(object):
+    aquamarine = color()
+#(127,255,212)
+    aquamarine.r=127
+    aquamarine.b=255
+    aquamarine.g=212
+
+    medium_spring_green = color()
+#(0,250,154)
+    medium_spring_green.r=0
+    medium_spring_green.b=250
+    medium_spring_green.g=154
