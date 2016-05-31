@@ -1,0 +1,24 @@
+class Time(object):
+ def __init__(self, hour, minute, second):
+     self.hour = hour
+     self.minute = minute
+     self.second = second
+ def __str__(self):
+    return str(self.hour) + ":" + str(self.minute) + ":" + str(self.second)
+
+ def __add__(self, other):
+     # return str(self.hour + other.hour) + ":" + str(self.minute + other.minute) + ":" +str(self.second + other.second)
+     return Time(self.hour + other.hour, self.minute + other.minute, self.second + other.second)
+
+time1 = Time(5, 32, 17)
+time2 = Time(3,16,0)
+time3 = Time(7,50,59)
+time4 = Time(1,2,3)
+print time1
+print time2
+print time3
+print time4
+print " "
+print time1 + time2 + time3 + time4
+# print time1 + time3
+# print time2 + time3
